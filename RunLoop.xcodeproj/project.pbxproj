@@ -15,6 +15,8 @@
 		3EBDFC2D23DC2FC6003531A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EBDFC2B23DC2FC6003531A8 /* LaunchScreen.storyboard */; };
 		3EBDFC3823DC2FC6003531A8 /* RunLoopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDFC3723DC2FC6003531A8 /* RunLoopTests.swift */; };
 		3EBDFC4323DC2FC6003531A8 /* RunLoopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDFC4223DC2FC6003531A8 /* RunLoopUITests.swift */; };
+		3EBDFC5123E066B2003531A8 /* rose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3EBDFC5023E066B2003531A8 /* rose.jpg */; };
+		3EBDFC5323EBF609003531A8 /* V2FPSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDFC5223EBF609003531A8 /* V2FPSLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3EBDFC3E23DC2FC6003531A8 /* RunLoopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunLoopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EBDFC4223DC2FC6003531A8 /* RunLoopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLoopUITests.swift; sourceTree = "<group>"; };
 		3EBDFC4423DC2FC6003531A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EBDFC5023E066B2003531A8 /* rose.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rose.jpg; sourceTree = "<group>"; };
+		3EBDFC5223EBF609003531A8 /* V2FPSLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = V2FPSLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +108,10 @@
 				3EBDFC2423DC2FC2003531A8 /* ViewController.swift */,
 				3EBDFC2623DC2FC2003531A8 /* Main.storyboard */,
 				3EBDFC2923DC2FC6003531A8 /* Assets.xcassets */,
+				3EBDFC5023E066B2003531A8 /* rose.jpg */,
 				3EBDFC2B23DC2FC6003531A8 /* LaunchScreen.storyboard */,
 				3EBDFC2E23DC2FC6003531A8 /* Info.plist */,
+				3EBDFC5223EBF609003531A8 /* V2FPSLabel.swift */,
 			);
 			path = RunLoop;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EBDFC5123E066B2003531A8 /* rose.jpg in Resources */,
 				3EBDFC2D23DC2FC6003531A8 /* LaunchScreen.storyboard in Resources */,
 				3EBDFC2A23DC2FC6003531A8 /* Assets.xcassets in Resources */,
 				3EBDFC2823DC2FC2003531A8 /* Main.storyboard in Resources */,
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EBDFC5323EBF609003531A8 /* V2FPSLabel.swift in Sources */,
 				3EBDFC2523DC2FC2003531A8 /* ViewController.swift in Sources */,
 				3EBDFC2123DC2FC2003531A8 /* AppDelegate.swift in Sources */,
 				3EBDFC2323DC2FC2003531A8 /* SceneDelegate.swift in Sources */,
